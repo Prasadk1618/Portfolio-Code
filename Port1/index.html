@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Prasad Kale | AWS DevOps Engineer</title>
+  <style>
+    :root {
+      --primary-color: #1f1f1f;
+      --accent-color: #00c9a7;
+      --text-light: #f1f1f1;
+      --card-bg: #2a2a2a;
+      --highlight: #ffda6b;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--primary-color);
+      color: var(--text-light);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--accent-color);
+      color: #000;
+      padding: 2rem 1rem;
+      text-align: center;
+      animation: fadeInDown 1.2s ease;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem 1rem;
+      animation: fadeInUp 1s ease;
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    h2 {
+      color: var(--highlight);
+      border-bottom: 2px solid #444;
+      padding-bottom: 0.3rem;
+      margin-bottom: 0.8rem;
+    }
+
+    .info, .contact {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .contact a {
+      margin: 0 0.5rem;
+      text-decoration: none;
+      color: var(--accent-color);
+      transition: color 0.3s ease;
+    }
+
+    .contact a:hover {
+      color: var(--highlight);
+    }
+
+    .card {
+      background: var(--card-bg);
+      padding: 1rem 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 201, 167, 0.1);
+      margin-bottom: 1rem;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    .highlight {
+      color: var(--highlight);
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: var(--accent-color);
+      color: #000;
+      font-weight: bold;
+      animation: fadeIn 1.5s ease;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.7rem;
+      }
+    }
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Prasad Kale</h1>
+  <p>AWS DevOps Engineer | Pune, India</p>
+</header>
+
+<div class="container">
+
+  <div class="info">
+    <p>Email: prasadkale1618@gmail.com | Phone: +91 95790 77942</p>
+    <div class="contact">
+      <a href="https://github.com/YOUR_GITHUB" target="_blank">GitHub</a> |
+      <a href="https://linkedin.com/in/YOUR_LINKEDIN" target="_blank">LinkedIn</a>
+    </div>
+  </div>
+
+  <section>
+    <h2>Summary</h2>
+    <p>AWS DevOps Engineer with hands-on experience in cloud platforms, CI/CD automation, and infrastructure management. Passionate about optimizing cloud deployments, scripting automation, and implementing best DevOps practices.</p>
+  </section>
+
+  <section>
+    <h2>Technical Skills</h2>
+    <ul>
+      <li><span class="highlight">Cloud:</span> AWS (EC2, ELB, S3, IAM, ECS)</li>
+      <li><span class="highlight">CI/CD:</span> Jenkins, GitHub Actions</li>
+      <li><span class="highlight">Scripting:</span> Bash, Python (basic)</li>
+      <li><span class="highlight">IaC:</span> Terraform, Ansible</li>
+      <li><span class="highlight">Containers:</span> Docker, Nginx</li>
+      <li><span class="highlight">Monitoring:</span> Prometheus, Grafana</li>
+      <li><span class="highlight">Version Control:</span> Git, GitHub</li>
+      <li><span class="highlight">OS:</span> Linux, Unix</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+    <div class="card">
+      <p><strong>Cravita Technologies Pvt Ltd, Pune</strong> — DevOps Intern<br>
+      <em>June 2024 – Feb 2025</em></p>
+      <ul>
+        <li>Deployed applications on AWS cloud infrastructure.</li>
+        <li>Automated server provisioning with Ansible.</li>
+        <li>Configured CI/CD pipelines using Jenkins and GitHub Actions.</li>
+        <li>Containerized apps with Docker for better scalability.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="card">
+      <p><strong>CI/CD Pipeline Deployment on AWS</strong></p>
+      <ul>
+        <li>Built CI/CD using Jenkins, GitHub, Docker.</li>
+        <li>Automated EC2 deployments with Ansible.</li>
+        <li>Integrated Prometheus & Grafana for monitoring.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <p><strong>Dockerized Flask Application</strong></p>
+      <ul>
+        <li>Containerized Flask app using Docker.</li>
+        <li>Configured Nginx as a reverse proxy.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Tasks</h2>
+    <ul>
+      <li>Managed manual code deployments efficiently.</li>
+      <li>Monitored AWS CloudWatch alarms & metrics.</li>
+      <li>Provisioned infrastructure using Terraform & Ansible.</li>
+      <li>Configured IAM, VPC, and network policies for security.</li>
+      <li>Automated routine tasks using Bash and crontab.</li>
+      <li>Implemented cost-optimization strategies using AWS Billing reports.</li>
+      <li>Set up SSL certs on Apache & NGINX servers.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <p><strong>Bachelor of Computer Application</strong><br>COCSIT College, Latur — Jan 2025</p>
+  </section>
+
+  <section>
+    <h2>Certifications</h2>
+    <p><strong>Master In Cloud Architecture</strong><br>Fortune Cloud Technology, Pune — Jun 2024 - Present</p>
+  </section>
+
+</div>
+
+<footer>
+  &copy; 2025 Prasad Kale | AWS DevOps Engineer
+</footer>
+
+</body>
+</html>
